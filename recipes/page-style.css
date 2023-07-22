@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    font-size: 25px;
+}
+
+h1 {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    filter: brightness(80%);
+}
+
+h2, p, ol, ul {
+    color: darkred;
+}
+
+button {
+    background-color: darkred;
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+button a {
+    color: white;
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
