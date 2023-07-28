@@ -7,18 +7,27 @@
     text-align: center;  
     background-color: white;  
     margin: 10px;
-    border: lightblue solid 3px;
 }
 
 #main {
     font-size: 100px;
-    color: lightblue;
+    color: darkred;
     -webkit-text-stroke: black 1px;
 }
 
 #tag-line {
-    color: black;
+    color: darkred;
     font-size: 30px;
     margin-bottom: 5px;
 }
+
+.home-image {
+    display: block;
+    height: 650px;
+    width: 1300px;
+    border-radius: 8px;
+    border: darkred solid 3px;
+    margin: 20px auto;
+}
+
 
