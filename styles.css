@@ -31,7 +31,7 @@
     margin: 20px auto;
 }
 
-p {
+.intro p {
     color: darkred;
     margin: 20px;
     font-size: 22px;
@@ -44,8 +44,75 @@ p {
 }
 
 .first {
-    border-top: darkred solid 2px;
+    /* border-top: darkred solid 2px; */
     padding-top: 1em;
 }
 
+.rec-head {
+    text-align: center;
+    font-size: 80px;
+    color: darkred;
+    margin-bottom: 50px;
+}
 
+.container {
+    position: relative;
+}
+
+.recipe img {
+    display: block;
+    opacity: 0.8;
+    width: 1100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: darkred solid 3px;
+}
+
+.rec-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rec-title a {
+    font-size: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Caudex', serif;
+    -webkit-text-stroke: darkred 1px;
+}
+
+.btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 35em;
+}
+.btn a {
+    font-size: 40px;
+    color: darkred;
+    text-decoration: none;
+    border: darkred solid 2px;
+    padding: 3px 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn a:hover {
+    background-color: darkred;
+    color: white;
+    font-weight: ;
+}
+
+.credit {
+    background-color: darkred;
+    margin-top: 55px;
+}
+
+.credit p {
+    display:inline-block;
+    color: white;
+    font-size: 21px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 26em;
+}
