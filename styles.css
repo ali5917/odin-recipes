@@ -116,6 +116,10 @@ body {
     margin-left: 26em;
 }
 
+#dark {
+    margin-top: 10px;
+}
+
 #dark a{
     margin-left: 1300px;
     font-size: 40px;

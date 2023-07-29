@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #EFEFEF;
+    background-color: black;
 }
 
 #heading {
     text-align: center;
-    color: darkred;
+    color: white;
 }
 
 #main {
@@ -25,15 +25,15 @@ body {
     height: 700px;
     width: 1200px;
     margin: 20px auto;
-    border: darkred solid 3px;
+    border: white solid 3px;
     border-radius: 8px;
 }
 
 .description {
     padding-top: 1em;
     padding-bottom: 1em;
-    border-bottom: darkred solid 2px;
-    color: darkred;
+    border-bottom: white solid 2px;
+    color: white;
     margin: 20px;
     margin-top: 10px;
     font-size: 25px;
@@ -42,7 +42,7 @@ body {
 }
 
 .min-head {
-    color: darkred;
+    color: white;
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -51,7 +51,7 @@ body {
 }
 
 ul, ol {
-    color: darkred;
+    color: white;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
     margin-left: 45px;
@@ -70,25 +70,25 @@ ul, ol {
 .buttons a {
     text-decoration: none;
     font-size: 40px;
-    color: darkred;
-    border: darkred solid 2px;
+    color: white;
+    border: white solid 2px;
     padding: 3px 20px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .buttons a:hover {
-    background-color: darkred;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .credit {
-    background-color: darkred;
+    background-color: white;
     margin-top: 55px;
 }
 
 .credit p {
     display:inline-block;
-    color: white;
+    color: black;
     font-size: 21px;
     font-family: 'Quicksand', sans-serif;
     margin-left: 26em;
@@ -96,12 +96,12 @@ ul, ol {
 
 .credit a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 .credit a:hover {
-    color: rgb(207, 202, 202)
+    color: rgb(48, 47, 47)
 }
 
 #dark {
@@ -112,5 +112,6 @@ ul, ol {
     margin-left: 1300px;
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
+
