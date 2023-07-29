@@ -1,38 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    margin: 0px;
-    font-size: 25px;
+    background-color: #EFEFEF;
 }
 
-h1 {
-    background-color: darkred;
-    color: white;
+#heading {
     text-align: center;
-    font-size: 75px;
-    margin: 0px;
-}
-
-img {
-    width: 100%;
-    filter: brightness(80%);
-}
-
-h2, p, ol, ul {
+    margin-bottom: 10px;
     color: darkred;
 }
 
-button {
-    background-color: darkred;
-    width: 180px;
-    height: 40px;
-    border: none;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+#main {
+    font-size: 100px;
 }
-
-button a {
-    color: white;
-    font-size: 30px;
-    font-weight: 600px;
-    font-family: 'Times New Roman', Times, serif;
+#tag-line {
+    font-size: 35px;
+    font-family: 'Ysabeau Office', sans-serif;
 }

@@ -9,20 +9,16 @@ body {
 
 #heading {
     text-align: center;  
-    background-color: #EFEFEF;  
-    margin: 10px;
-    margin-top: 0px;
+    color: darkred;
+    margin-bottom: 0px;
 }
 
 #main {
     font-size: 100px;
-    color: darkred;
 }
 
 #tag-line {
-    color: darkred;
     font-size: 35px;
-    margin-bottom: 5px;
     font-family: 'Ysabeau Office', sans-serif;
 }
 
