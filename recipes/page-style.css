@@ -9,7 +9,6 @@ body {
 
 #heading {
     text-align: center;
-    margin-bottom: 10px;
     color: darkred;
 }
 
@@ -19,4 +18,88 @@ body {
 #tag-line {
     font-size: 35px;
     font-family: 'Ysabeau Office', sans-serif;
+}
+
+.recipe-image {
+    display: block;
+    height: 700px;
+    width: 1200px;
+    margin: 20px auto;
+    border: darkred solid 3px;
+    border-radius: 8px;
+}
+
+.description {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: darkred solid 2px;
+    color: darkred;
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.min-head {
+    color: darkred;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-family: 'Caudex', serif;
+}
+
+ul, ol {
+    color: darkred;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 45px;
+}
+
+.buttons {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 26em;
+}
+
+.second {
+    margin-left: 1em;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 40px;
+    color: darkred;
+    border: darkred solid 2px;
+    padding: 3px 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.buttons a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.credit {
+    background-color: darkred;
+    margin-top: 55px;
+}
+
+.credit p {
+    display:inline-block;
+    color: white;
+    font-size: 21px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 26em;
+}
+
+.credit a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.credit a:hover {
+    color: rgb(207, 202, 202)
 }
