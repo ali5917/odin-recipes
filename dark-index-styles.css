@@ -3,20 +3,24 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 #heading {
     text-align: center;  
-    background-color: white;  
+    background-color: black;  
     margin: 10px;
     margin-top: 0px;
 }
 
 #main {
     font-size: 100px;
-    color: darkred;
+    color: white;
 }
 
 #tag-line {
-    color: darkred;
+    color: white;
     font-size: 35px;
     margin-bottom: 5px;
     font-family: 'Ysabeau Office', sans-serif;
@@ -27,31 +31,31 @@
     height: 650px;
     width: 1300px;
     border-radius: 8px;
-    border: darkred solid 3px;
+    border: white solid 3px;
     margin: 20px auto;
 }
 
 .intro p {
-    color: darkred;
+    color: white;
     margin: 20px;
     font-size: 22px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .last {
-    border-bottom: darkred solid 2px;
+    border-bottom: white solid 2px;
     padding-bottom: 1em;
 }
 
 .first {
-    /* border-top: darkred solid 2px; */
+    /* border-top: white solid 2px;  */
     padding-top: 1em;
 }
 
 .rec-head {
     text-align: center;
     font-size: 80px;
-    color: darkred;
+    color: white;
     margin-bottom: 50px;
 }
 
@@ -67,7 +71,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
-    border: darkred solid 3px;
+    border: white solid 3px;
 }
 
 .rec-title {
@@ -81,7 +85,7 @@
     text-decoration: none;
     color: white;
     font-family: 'Caudex', serif;
-    -webkit-text-stroke: darkred 1px;
+    -webkit-text-stroke: black 1px;
 }
 
 .btn {
@@ -91,26 +95,26 @@
 }
 .btn a {
     font-size: 40px;
-    color: darkred;
+    color: white;
     text-decoration: none;
-    border: darkred solid 2px;
+    border: white solid 2px;
     padding: 3px 20px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .btn a:hover {
-    background-color: darkred;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .credit {
-    background-color: darkred;
+    background-color: white;
     margin-top: 55px;
 }
 
 .credit p {
     display:inline-block;
-    color: white;
+    color: black;
     font-size: 21px;
     font-family: 'Quicksand', sans-serif;
     margin-left: 26em;
@@ -120,5 +124,5 @@
     margin-left: 1300px;
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
