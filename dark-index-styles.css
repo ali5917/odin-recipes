@@ -126,3 +126,13 @@ body {
     text-decoration: none;
     color: white;
 }
+
+.credit a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.credit a:hover {
+    color: rgb(48, 47, 47)
+}
